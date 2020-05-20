@@ -1,0 +1,29 @@
+{
+  "name": "vm-translator",
+  "version": "1.0.0",
+  "description": "A translator from VM language to the Hack assembly language, for the NAND to Tetris Coursera course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximilliancharlemagne/vm-translator.git"
+  },
+  "keywords": [
+    "VM",
+    "assembly",
+    "nand",
+    "tetris",
+    "translator"
+  ],
+  "author": "Maxwell Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximilliancharlemagne/vm-translator/issues"
+  },
+  "homepage": "https://github.com/maximilliancharlemagne/vm-translator#readme",
+  "dependencies": {
+    "inquirer": "^7.1.0"
+  }
+}

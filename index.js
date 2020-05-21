@@ -3,6 +3,10 @@ const fs = require('fs')
 const path = require('path')
 const translatorInterface = require('./lib/translatorInterface')
 
+//Note to future self
+
+//To debug this, you need to truly think through the utilization of the temp space
+
 console.log(path.join(__dirname, '/input'))
 
 const mainMenu = (inputDirFileList) => {

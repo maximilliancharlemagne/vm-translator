@@ -7,6 +7,8 @@ const translatorInterface = require('./lib/translatorInterface')
 
 //To debug this, you need to truly think through the utilization of the temp space
 
+//look at the interaction of add and pop
+
 console.log(path.join(__dirname, '/input'))
 
 const mainMenu = (inputDirFileList) => {

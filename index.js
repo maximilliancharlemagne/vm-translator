@@ -3,11 +3,8 @@ const fs = require('fs')
 const path = require('path')
 const translatorInterface = require('./lib/translatorInterface')
 
-//Note to future self
-
-//To debug this, you need to truly think through the utilization of the temp space
-
-//look at the interaction of add and pop
+//TO DO
+//Add a halt loop to the end of the generated asm code
 
 console.log(path.join(__dirname, '/input'))
 

@@ -1,21 +1,27 @@
 const { prompt } = require('inquirer')
 const fs = require('fs')
 const path = require('path')
-const translatorInterface = require('')
+const translatorInterface = require('./lib/translatorInterface')
+
+//TO DO
+//Add a halt loop to the end of the generated asm code
 
 console.log(path.join(__dirname, '/input'))
 
 const mainMenu = (inputDirFileList) => {
   let myList = {
     type: 'list',
-    name: 'userChoice',
+    name: 'choice',
     message: `Please choose a file to translate.`,
     choices: inputDirFileList
   }
 
   prompt(myList)
-  .then(choice => {
-    translatorInterface.takeInput(choice)
+  .then(({choice}) => {
+    let myInterface = new translatorInterface
+    // console.log(choice)
+    // console.log(typeof choice) problem's not here
+    myInterface.takeInput(choice)
   })
   .catch(err => {
     if(err){

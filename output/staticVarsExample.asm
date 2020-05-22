@@ -119,8 +119,14 @@ D=A
 D=D-A
 @7
 M=D
-temp
-2
+//push temp 2
+@7
+D=M
+@0
+A = M
+M = D
+@0
+M = M + 1
 @End
 0;JMP
 (False)

@@ -90,7 +90,7 @@ A = M
 M = D
 @0
 M = M + 1
-
+//did not add eq instructions?
 //pop static 0
 @0
 M=M-1

@@ -5,6 +5,7 @@ const translatorInterface = require('./lib/translatorInterface')
 
 //TO DO
 //Add a halt loop to the end of the generated asm code
+//Write jest tests for the assembly code?
 
 console.log(path.join(__dirname, '/input'))
 

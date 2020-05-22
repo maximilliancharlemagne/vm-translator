@@ -146,3 +146,6 @@ A=M
 D=M
 @staticVarsExample.0
 M=D
+(Halt)
+@Halt
+0;JMP

@@ -62,3 +62,6 @@ D=M
 @14
 A=M
 M=D
+(Halt)
+@Halt
+0;JMP

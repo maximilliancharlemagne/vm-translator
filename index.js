@@ -4,7 +4,12 @@ const path = require('path')
 const translatorInterface = require('./lib/translatorInterface')
 
 //TO DO
-//Add a halt loop to the end of the generated asm code
+//Write remaining ops
+//Write jest tests for the assembly code?
+
+//STYLE WISHLIST
+//rewrite push and pop
+//break out all operations into a separate lib, far away from codeReader
 
 console.log(path.join(__dirname, '/input'))
 

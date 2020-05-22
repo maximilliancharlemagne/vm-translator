@@ -1,4 +1,0 @@
-push const 5
-push const 3
-add
-pop local 0

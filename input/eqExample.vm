@@ -1,0 +1,6 @@
+push const 1
+push const 2
+eq
+push const 1
+push const 1
+eq

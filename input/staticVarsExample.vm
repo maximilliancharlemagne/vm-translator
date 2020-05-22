@@ -1,0 +1,8 @@
+push const 10
+push const 3
+push const 5
+sub
+add
+push const 12
+eq
+pop static 0
